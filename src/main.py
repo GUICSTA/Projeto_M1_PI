@@ -2,8 +2,6 @@
 Uso:
     python -m src.main caminho/para/imagem.png
 
-Roda o pipeline completo (pré-processamento -> segmentação -> features ->
-classificação) numa imagem de carta e imprime o naipe identificado.
 """
 import sys
 from . import classify

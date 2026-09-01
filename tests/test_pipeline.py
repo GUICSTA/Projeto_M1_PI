@@ -1,10 +1,5 @@
 """
 Testes do pipeline de identificação de naipe.
-
-IMPORTANTE: estes testes rodam sobre as imagens SINTÉTICAS geradas por
-src/generate_synthetic_cards.py — servem para validar que o pipeline
-funciona de ponta a ponta, não como validação final do projeto (que
-exigirá fotos reais do baralho físico, conforme docs/proposta.md).
 """
 import os
 import sys

@@ -1,11 +1,4 @@
-"""
-Pré-processamento: carrega a imagem, garante RGB e gera uma versão em
-tons de cinza e uma versão binarizada (símbolo vs. fundo).
 
-Seguindo o mesmo cuidado usado nos laboratórios individuais: sempre
-convertemos explicitamente para RGB antes de virar array, para evitar
-bugs de canal (RGB vs BGR).
-"""
 import numpy as np
 from PIL import Image
 
@@ -26,12 +19,6 @@ def to_grayscale(rgb_array):
 
 
 def binarize(gray_array, threshold=None):
-    """
-    Binariza a imagem: símbolo (mais escuro) = 1 (branco na saída),
-    fundo (mais claro) = 0.
-    Se threshold não for informado, usa Otsu simplificado (busca do
-    limiar que maximiza a variância entre classes).
-    """
     if threshold is None:
         threshold = _otsu_threshold(gray_array)
     binary = (gray_array <= threshold).astype(np.uint8) * 255

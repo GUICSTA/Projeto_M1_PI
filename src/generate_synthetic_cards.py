@@ -1,16 +1,4 @@
-"""
-Gera imagens SINTÉTICAS de cartas (apenas o símbolo do naipe no canto)
-para permitir testar o pipeline ANTES de termos fotos reais do baralho físico.
 
-IMPORTANTE: estas imagens NAO substituem o conjunto de imagens reais exigido
-pela M1 (secao 8 do enunciado). Servem só como placeholder de desenvolvimento
-para validar segmentacao/classificacao enquanto o grupo fotografa o baralho
-real. Devem ser substituidas por fotos reais em images/input/ antes da entrega.
-
-Desenha os 4 naipes (copas, ouros, paus, espadas) em fundo branco, na cor
-correta (vermelho para copas/ouros, preto para paus/espadas), com leve
-variação de posição/tamanho para simular fotos reais.
-"""
 from PIL import Image, ImageDraw
 import random
 import os

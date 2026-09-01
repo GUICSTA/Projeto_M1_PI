@@ -1,19 +1,4 @@
-"""
-Extração de características de forma a partir da máscara binária recortada
-do símbolo. Usadas para distinguir os dois naipes de cada cor
-(copas vs. ouros; paus vs. espadas).
 
-Descritores calculados manualmente, pixel a pixel / linha a linha,
-sem usar funções prontas de "reconhecimento de forma" de bibliotecas:
-
-- fill_ratio: proporção da bounding box ocupada pelo símbolo (área/área da caixa).
-- vertical_symmetry: o quanto a metade de cima é semelhante à metade de baixo
-  quando espelhada (copas e ouros são bem simétricos verticalmente;
-  paus e espadas têm "haste" na base, quebrando a simetria).
-- width_profile_top_vs_bottom: razão entre a largura média do símbolo na
-  metade superior e na metade inferior (ouros é losango, mais largo no meio;
-  copas é mais largo no topo).
-"""
 import numpy as np
 
 

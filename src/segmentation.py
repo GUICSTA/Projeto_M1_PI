@@ -1,8 +1,4 @@
-"""
-Segmentação: a partir da imagem binarizada, encontra a região (bounding box)
-ocupada pelo símbolo do naipe, recorta essa região e determina a cor
-dominante do símbolo (vermelho ou preto) a partir da imagem RGB original.
-"""
+
 import numpy as np
 
 
@@ -29,11 +25,6 @@ def crop_symbol(rgb_array, binary_array, margin=5):
 
 
 def dominant_color(rgb_array, mask):
-    """
-    Classifica a cor dominante do símbolo em 'vermelho' ou 'preto',
-    olhando apenas os pixels marcados na máscara.
-    Critério: compara o canal R médio com G/B médios nos pixels do símbolo.
-    """
     symbol_pixels = rgb_array[mask > 0]
     if len(symbol_pixels) == 0:
         raise ValueError("Máscara vazia — nenhum pixel de símbolo para analisar cor.")

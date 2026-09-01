@@ -22,7 +22,7 @@ Apoio na estruturação do repositório, implementação inicial do pipeline de 
 
 - O código foi executado e os testes automatizados (`pytest`) foram rodados, confirmando que o pipeline processa as imagens e classifica corretamente as 20 imagens sintéticas de desenvolvimento (20/20 — ver `images/results/resultados_sinteticos.json`).
 - O grupo revisou a lógica de cada módulo (binarização por Otsu, critério de cor dominante, descritores de forma e regras de classificação) e entende a justificativa geométrica de cada descritor.
-- **Ainda pendente:** validação com fotos reais do baralho físico. Os limiares de classificação foram calibrados apenas sobre as imagens sintéticas e **precisarão ser reajustados** — isso está documentado explicitamente como próximo passo em `docs/proposta.md`, e o grupo se responsabiliza por essa validação antes de reportar qualquer resultado como final.
+- **Ainda pendentes:** validação com fotos reais do baralho físico. Os limiares de classificação foram calibrados apenas sobre as imagens sintéticas e **precisarão ser reajustados** — isso está documentado explicitamente como próximo passo em `docs/proposta.md`, e o grupo se responsabiliza por essa validação antes de reportar qualquer resultado como final.
 
 ## Responsabilidade
 
