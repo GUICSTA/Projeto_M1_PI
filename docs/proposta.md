@@ -131,7 +131,7 @@ Evidências reunidas até o momento:
 - Fotos reais terão ruído (sombra, reflexo no verniz, variação de ângulo) que as imagens sintéticas não têm — os limiares de decisão precisarão ser recalibrados, e pode ser necessário trocar de abordagem de regras fixas para algo mais robusto (template matching ou classificador leve).
 - A posição do símbolo do naipe na carta real (geralmente no canto, pequeno, ao lado do valor) é diferente da posição centralizada usada nas imagens sintéticas — o pipeline de segmentação vai precisar lidar com o recorte da região do canto especificamente.
 
-## 12.Resultados/experimentos preliminares
+## 12. Resultados/experimentos preliminares
 
 **Experimento:** classificação de naipe em 20 imagens sintéticas.
 
