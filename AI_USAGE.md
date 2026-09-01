@@ -1,4 +1,4 @@
-#Declaração de Uso de Inteligência Artificial Generativa
+Declaração de Uso de Inteligência Artificial Generativa
 Ferramenta: Claude (Anthropic), via chat
 
 Finalidade: Apoio na estruturação do repositório, implementação inicial do pipeline de Processamento Digital de Imagens (pré-processamento, segmentação, extração de características e classificação por regras) e redação da documentação.
