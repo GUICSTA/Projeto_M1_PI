@@ -1,0 +1,122 @@
+[
+  {
+    "arquivo": "copas_00.png",
+    "naipe_esperado": "copas",
+    "naipe_previsto": "copas",
+    "cor": "vermelho"
+  },
+  {
+    "arquivo": "copas_01.png",
+    "naipe_esperado": "copas",
+    "naipe_previsto": "copas",
+    "cor": "vermelho"
+  },
+  {
+    "arquivo": "copas_02.png",
+    "naipe_esperado": "copas",
+    "naipe_previsto": "copas",
+    "cor": "vermelho"
+  },
+  {
+    "arquivo": "copas_03.png",
+    "naipe_esperado": "copas",
+    "naipe_previsto": "copas",
+    "cor": "vermelho"
+  },
+  {
+    "arquivo": "copas_04.png",
+    "naipe_esperado": "copas",
+    "naipe_previsto": "copas",
+    "cor": "vermelho"
+  },
+  {
+    "arquivo": "espadas_00.png",
+    "naipe_esperado": "espadas",
+    "naipe_previsto": "espadas",
+    "cor": "preto"
+  },
+  {
+    "arquivo": "espadas_01.png",
+    "naipe_esperado": "espadas",
+    "naipe_previsto": "espadas",
+    "cor": "preto"
+  },
+  {
+    "arquivo": "espadas_02.png",
+    "naipe_esperado": "espadas",
+    "naipe_previsto": "espadas",
+    "cor": "preto"
+  },
+  {
+    "arquivo": "espadas_03.png",
+    "naipe_esperado": "espadas",
+    "naipe_previsto": "espadas",
+    "cor": "preto"
+  },
+  {
+    "arquivo": "espadas_04.png",
+    "naipe_esperado": "espadas",
+    "naipe_previsto": "espadas",
+    "cor": "preto"
+  },
+  {
+    "arquivo": "ouros_00.png",
+    "naipe_esperado": "ouros",
+    "naipe_previsto": "ouros",
+    "cor": "vermelho"
+  },
+  {
+    "arquivo": "ouros_01.png",
+    "naipe_esperado": "ouros",
+    "naipe_previsto": "ouros",
+    "cor": "vermelho"
+  },
+  {
+    "arquivo": "ouros_02.png",
+    "naipe_esperado": "ouros",
+    "naipe_previsto": "ouros",
+    "cor": "vermelho"
+  },
+  {
+    "arquivo": "ouros_03.png",
+    "naipe_esperado": "ouros",
+    "naipe_previsto": "ouros",
+    "cor": "vermelho"
+  },
+  {
+    "arquivo": "ouros_04.png",
+    "naipe_esperado": "ouros",
+    "naipe_previsto": "ouros",
+    "cor": "vermelho"
+  },
+  {
+    "arquivo": "paus_00.png",
+    "naipe_esperado": "paus",
+    "naipe_previsto": "paus",
+    "cor": "preto"
+  },
+  {
+    "arquivo": "paus_01.png",
+    "naipe_esperado": "paus",
+    "naipe_previsto": "paus",
+    "cor": "preto"
+  },
+  {
+    "arquivo": "paus_02.png",
+    "naipe_esperado": "paus",
+    "naipe_previsto": "paus",
+    "cor": "preto"
+  },
+  {
+    "arquivo": "paus_03.png",
+    "naipe_esperado": "paus",
+    "naipe_previsto": "paus",
+    "cor": "preto"
+  },
+  {
+    "arquivo": "paus_04.png",
+    "naipe_esperado": "paus",
+    "naipe_previsto": "paus",
+    "cor": "preto"
+  }
+]
