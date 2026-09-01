@@ -90,5 +90,4 @@ pytest tests/ -v
 
 ## Vídeo da M1
 
-[Link do vídeo não listado no YouTube — adicionar após a gravação]
-
+https://youtu.be/Elav2VKWgt4
